@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5800A99615A6D8A900FA3390 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5800A99515A6D8A900FA3390 /* libsqlite3.dylib */; };
+		5817216A15B5543E009C75A8 /* yurtici-kargo57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5817216915B5543E009C75A8 /* yurtici-kargo57.png */; };
+		5817216C15B55440009C75A8 /* yurtici-kargo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5817216B15B55440009C75A8 /* yurtici-kargo114.png */; };
+		5821329315E4B4E5004A252E /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5821329015E4B4E5004A252E /* NSString+MD5Addition.m */; };
+		5821329415E4B4E5004A252E /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5821329215E4B4E5004A252E /* UIDevice+IdentifierAddition.m */; };
+		582132BF15E4CBEF004A252E /* UIDevice+serialNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 582132BE15E4CBEF004A252E /* UIDevice+serialNumber.m */; };
+		58B9D15015A46E02009D8104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9D14F15A46E02009D8104 /* UIKit.framework */; };
+		58B9D15215A46E02009D8104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9D15115A46E02009D8104 /* Foundation.framework */; };
+		58B9D15415A46E02009D8104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9D15315A46E02009D8104 /* CoreGraphics.framework */; };
+		58B9D15A15A46E02009D8104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B9D15815A46E02009D8104 /* InfoPlist.strings */; };
+		58B9D15C15A46E02009D8104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9D15B15A46E02009D8104 /* main.m */; };
+		58B9D16015A46E02009D8104 /* KargoTakipAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9D15F15A46E02009D8104 /* KargoTakipAppDelegate.m */; };
+		58B9D16315A46E02009D8104 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B9D16115A46E02009D8104 /* MainStoryboard.storyboard */; };
+		58B9D16615A46E02009D8104 /* KargoTakipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B9D16515A46E02009D8104 /* KargoTakipViewController.m */; };
+		58B9D16D15A473B7009D8104 /* park-23948_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9D16C15A473B7009D8104 /* park-23948_640.png */; };
+		58B9D16F15A473BC009D8104 /* park-23965_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B9D16E15A473BC009D8104 /* park-23965_640.png */; };
+		58B9D17515A4816B009D8104 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B9D17415A4816B009D8104 /* CoreLocation.framework */; };
+		58BFC7BE15CAB13F001BD0AB /* SendDatasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BFC7BD15CAB13F001BD0AB /* SendDatasViewController.m */; };
+		58BFC7C115CAB1B8001BD0AB /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BFC7C015CAB1B8001BD0AB /* libxml2.2.7.3.dylib */; };
+		58BFC7D715CAB9D0001BD0AB /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BFC7D615CAB9D0001BD0AB /* XMLWriter.m */; };
+		58BFC7DD15CAD608001BD0AB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BFC7DC15CAD608001BD0AB /* MessageUI.framework */; };
+		58BFC7DF15CAD991001BD0AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BFC7DE15CAD991001BD0AB /* CFNetwork.framework */; };
+		58BFC7F515CAE433001BD0AB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58BFC7F415CAE433001BD0AB /* Settings.bundle */; };
+		58C0D0CE15A57B4900349256 /* TeslimatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C0D0CD15A57B4900349256 /* TeslimatViewController.m */; };
+		58C0D0E215A585D400349256 /* DagitimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C0D0E115A585D400349256 /* DagitimViewController.m */; };
+		58C4BAB815DE6C81001EE5C8 /* kargoTakipVerileri.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58C4BAB715DE6C81001EE5C8 /* kargoTakipVerileri.sqlite */; };
+		58D5BD3A15CB6B4F00A2B703 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BD3115CB6B4F00A2B703 /* Base64Transcoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58D5BD3B15CB6B4F00A2B703 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BD3315CB6B4F00A2B703 /* HSK_CFUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58D5BD3C15CB6B4F00A2B703 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BD3515CB6B4F00A2B703 /* NSData+Base64Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58D5BD3D15CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BD3715CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58D5BD3E15CB6B4F00A2B703 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BD3915CB6B4F00A2B703 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5800A99515A6D8A900FA3390 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5817216915B5543E009C75A8 /* yurtici-kargo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yurtici-kargo57.png"; path = "../yurtici-kargo57.png"; sourceTree = "<group>"; };
+		5817216B15B55440009C75A8 /* yurtici-kargo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yurtici-kargo114.png"; path = "../yurtici-kargo114.png"; sourceTree = "<group>"; };
+		5821328F15E4B4E5004A252E /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		5821329015E4B4E5004A252E /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		5821329115E4B4E5004A252E /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		5821329215E4B4E5004A252E /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		582132BD15E4CBEF004A252E /* UIDevice+serialNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+serialNumber.h"; sourceTree = "<group>"; };
+		582132BE15E4CBEF004A252E /* UIDevice+serialNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+serialNumber.m"; sourceTree = "<group>"; };
+		58B9D14B15A46E02009D8104 /* KargoTakip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KargoTakip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B9D14F15A46E02009D8104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58B9D15115A46E02009D8104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58B9D15315A46E02009D8104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58B9D15715A46E02009D8104 /* KargoTakip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KargoTakip-Info.plist"; sourceTree = "<group>"; };
+		58B9D15915A46E02009D8104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58B9D15B15A46E02009D8104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B9D15D15A46E02009D8104 /* KargoTakip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KargoTakip-Prefix.pch"; sourceTree = "<group>"; };
+		58B9D15E15A46E02009D8104 /* KargoTakipAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KargoTakipAppDelegate.h; sourceTree = "<group>"; };
+		58B9D15F15A46E02009D8104 /* KargoTakipAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KargoTakipAppDelegate.m; sourceTree = "<group>"; };
+		58B9D16215A46E02009D8104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		58B9D16415A46E02009D8104 /* KargoTakipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KargoTakipViewController.h; sourceTree = "<group>"; };
+		58B9D16515A46E02009D8104 /* KargoTakipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KargoTakipViewController.m; sourceTree = "<group>"; };
+		58B9D16C15A473B7009D8104 /* park-23948_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "park-23948_640.png"; path = "../park-23948_640.png"; sourceTree = "<group>"; };
+		58B9D16E15A473BC009D8104 /* park-23965_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "park-23965_640.png"; path = "../park-23965_640.png"; sourceTree = "<group>"; };
+		58B9D17415A4816B009D8104 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		58BFC7BC15CAB13F001BD0AB /* SendDatasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendDatasViewController.h; path = ../SendDatasViewController.h; sourceTree = "<group>"; };
+		58BFC7BD15CAB13F001BD0AB /* SendDatasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendDatasViewController.m; path = ../SendDatasViewController.m; sourceTree = "<group>"; };
+		58BFC7C015CAB1B8001BD0AB /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		58BFC7D515CAB9D0001BD0AB /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLWriter.h; path = ../XMLWriter.h; sourceTree = "<group>"; };
+		58BFC7D615CAB9D0001BD0AB /* XMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLWriter.m; path = ../XMLWriter.m; sourceTree = "<group>"; };
+		58BFC7DC15CAD608001BD0AB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		58BFC7DE15CAD991001BD0AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		58BFC7F415CAE433001BD0AB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		58C0D0CC15A57B4900349256 /* TeslimatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeslimatViewController.h; path = ../TeslimatViewController.h; sourceTree = "<group>"; };
+		58C0D0CD15A57B4900349256 /* TeslimatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeslimatViewController.m; path = ../TeslimatViewController.m; sourceTree = "<group>"; };
+		58C0D0E015A585D400349256 /* DagitimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DagitimViewController.h; path = ../DagitimViewController.h; sourceTree = "<group>"; };
+		58C0D0E115A585D400349256 /* DagitimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DagitimViewController.m; path = ../DagitimViewController.m; sourceTree = "<group>"; };
+		58C4BAB715DE6C81001EE5C8 /* kargoTakipVerileri.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = kargoTakipVerileri.sqlite; sourceTree = "<group>"; };
+		58D5BD3015CB6B4F00A2B703 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		58D5BD3115CB6B4F00A2B703 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		58D5BD3215CB6B4F00A2B703 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		58D5BD3315CB6B4F00A2B703 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		58D5BD3415CB6B4F00A2B703 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		58D5BD3515CB6B4F00A2B703 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		58D5BD3615CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		58D5BD3715CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		58D5BD3815CB6B4F00A2B703 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		58D5BD3915CB6B4F00A2B703 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B9D14815A46E02009D8104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BFC7DF15CAD991001BD0AB /* CFNetwork.framework in Frameworks */,
+				58BFC7DD15CAD608001BD0AB /* MessageUI.framework in Frameworks */,
+				58BFC7C115CAB1B8001BD0AB /* libxml2.2.7.3.dylib in Frameworks */,
+				5800A99615A6D8A900FA3390 /* libsqlite3.dylib in Frameworks */,
+				58B9D17515A4816B009D8104 /* CoreLocation.framework in Frameworks */,
+				58B9D15015A46E02009D8104 /* UIKit.framework in Frameworks */,
+				58B9D15215A46E02009D8104 /* Foundation.framework in Frameworks */,
+				58B9D15415A46E02009D8104 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5821328E15E4B4E5004A252E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				582132BD15E4CBEF004A252E /* UIDevice+serialNumber.h */,
+				582132BE15E4CBEF004A252E /* UIDevice+serialNumber.m */,
+				5821328F15E4B4E5004A252E /* NSString+MD5Addition.h */,
+				5821329015E4B4E5004A252E /* NSString+MD5Addition.m */,
+				5821329115E4B4E5004A252E /* UIDevice+IdentifierAddition.h */,
+				5821329215E4B4E5004A252E /* UIDevice+IdentifierAddition.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		58B9D14015A46E02009D8104 = {
+			isa = PBXGroup;
+			children = (
+				58B9D16115A46E02009D8104 /* MainStoryboard.storyboard */,
+				58B9D15515A46E02009D8104 /* KargoTakip */,
+				58B9D14E15A46E02009D8104 /* Frameworks */,
+				58B9D14C15A46E02009D8104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B9D14C15A46E02009D8104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B9D14B15A46E02009D8104 /* KargoTakip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B9D14E15A46E02009D8104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58BFC7DE15CAD991001BD0AB /* CFNetwork.framework */,
+				58BFC7DC15CAD608001BD0AB /* MessageUI.framework */,
+				58B9D17415A4816B009D8104 /* CoreLocation.framework */,
+				58B9D14F15A46E02009D8104 /* UIKit.framework */,
+				58B9D15115A46E02009D8104 /* Foundation.framework */,
+				58B9D15315A46E02009D8104 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B9D15515A46E02009D8104 /* KargoTakip */ = {
+			isa = PBXGroup;
+			children = (
+				58BFC7BC15CAB13F001BD0AB /* SendDatasViewController.h */,
+				58BFC7BD15CAB13F001BD0AB /* SendDatasViewController.m */,
+				58C0D0E015A585D400349256 /* DagitimViewController.h */,
+				58C0D0E115A585D400349256 /* DagitimViewController.m */,
+				58C0D0CC15A57B4900349256 /* TeslimatViewController.h */,
+				58C0D0CD15A57B4900349256 /* TeslimatViewController.m */,
+				58B9D16415A46E02009D8104 /* KargoTakipViewController.h */,
+				58B9D16515A46E02009D8104 /* KargoTakipViewController.m */,
+				58B9D15E15A46E02009D8104 /* KargoTakipAppDelegate.h */,
+				58B9D15F15A46E02009D8104 /* KargoTakipAppDelegate.m */,
+				58B9D15615A46E02009D8104 /* Supporting Files */,
+			);
+			path = KargoTakip;
+			sourceTree = "<group>";
+		};
+		58B9D15615A46E02009D8104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5821328E15E4B4E5004A252E /* Classes */,
+				58C4BAB715DE6C81001EE5C8 /* kargoTakipVerileri.sqlite */,
+				58D5BD2F15CB6B4F00A2B703 /* SMTPLibrary */,
+				58BFC7F415CAE433001BD0AB /* Settings.bundle */,
+				58BFC7D515CAB9D0001BD0AB /* XMLWriter.h */,
+				58BFC7D615CAB9D0001BD0AB /* XMLWriter.m */,
+				58BFC7C015CAB1B8001BD0AB /* libxml2.2.7.3.dylib */,
+				5817216915B5543E009C75A8 /* yurtici-kargo57.png */,
+				5817216B15B55440009C75A8 /* yurtici-kargo114.png */,
+				5800A99515A6D8A900FA3390 /* libsqlite3.dylib */,
+				58B9D16C15A473B7009D8104 /* park-23948_640.png */,
+				58B9D16E15A473BC009D8104 /* park-23965_640.png */,
+				58B9D15715A46E02009D8104 /* KargoTakip-Info.plist */,
+				58B9D15815A46E02009D8104 /* InfoPlist.strings */,
+				58B9D15B15A46E02009D8104 /* main.m */,
+				58B9D15D15A46E02009D8104 /* KargoTakip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58D5BD2F15CB6B4F00A2B703 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				58D5BD3015CB6B4F00A2B703 /* Base64Transcoder.h */,
+				58D5BD3115CB6B4F00A2B703 /* Base64Transcoder.m */,
+				58D5BD3215CB6B4F00A2B703 /* HSK_CFUtilities.h */,
+				58D5BD3315CB6B4F00A2B703 /* HSK_CFUtilities.m */,
+				58D5BD3415CB6B4F00A2B703 /* NSData+Base64Additions.h */,
+				58D5BD3515CB6B4F00A2B703 /* NSData+Base64Additions.m */,
+				58D5BD3615CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.h */,
+				58D5BD3715CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.m */,
+				58D5BD3815CB6B4F00A2B703 /* SKPSMTPMessage.h */,
+				58D5BD3915CB6B4F00A2B703 /* SKPSMTPMessage.m */,
+			);
+			name = SMTPLibrary;
+			path = ../SMTPLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B9D14A15A46E02009D8104 /* KargoTakip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B9D16915A46E02009D8104 /* Build configuration list for PBXNativeTarget "KargoTakip" */;
+			buildPhases = (
+				58B9D14715A46E02009D8104 /* Sources */,
+				58B9D14815A46E02009D8104 /* Frameworks */,
+				58B9D14915A46E02009D8104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KargoTakip;
+			productName = KargoTakip;
+			productReference = 58B9D14B15A46E02009D8104 /* KargoTakip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B9D14215A46E02009D8104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KargoTakip;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "fatih__turker@hotmail.com";
+			};
+			buildConfigurationList = 58B9D14515A46E02009D8104 /* Build configuration list for PBXProject "KargoTakip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B9D14015A46E02009D8104;
+			productRefGroup = 58B9D14C15A46E02009D8104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B9D14A15A46E02009D8104 /* KargoTakip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B9D14915A46E02009D8104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B9D15A15A46E02009D8104 /* InfoPlist.strings in Resources */,
+				58B9D16315A46E02009D8104 /* MainStoryboard.storyboard in Resources */,
+				58B9D16D15A473B7009D8104 /* park-23948_640.png in Resources */,
+				58B9D16F15A473BC009D8104 /* park-23965_640.png in Resources */,
+				5817216A15B5543E009C75A8 /* yurtici-kargo57.png in Resources */,
+				5817216C15B55440009C75A8 /* yurtici-kargo114.png in Resources */,
+				58BFC7F515CAE433001BD0AB /* Settings.bundle in Resources */,
+				58C4BAB815DE6C81001EE5C8 /* kargoTakipVerileri.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B9D14715A46E02009D8104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B9D15C15A46E02009D8104 /* main.m in Sources */,
+				58B9D16015A46E02009D8104 /* KargoTakipAppDelegate.m in Sources */,
+				58B9D16615A46E02009D8104 /* KargoTakipViewController.m in Sources */,
+				58C0D0CE15A57B4900349256 /* TeslimatViewController.m in Sources */,
+				58C0D0E215A585D400349256 /* DagitimViewController.m in Sources */,
+				58BFC7BE15CAB13F001BD0AB /* SendDatasViewController.m in Sources */,
+				58BFC7D715CAB9D0001BD0AB /* XMLWriter.m in Sources */,
+				58D5BD3A15CB6B4F00A2B703 /* Base64Transcoder.m in Sources */,
+				58D5BD3B15CB6B4F00A2B703 /* HSK_CFUtilities.m in Sources */,
+				58D5BD3C15CB6B4F00A2B703 /* NSData+Base64Additions.m in Sources */,
+				58D5BD3D15CB6B4F00A2B703 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				58D5BD3E15CB6B4F00A2B703 /* SKPSMTPMessage.m in Sources */,
+				5821329315E4B4E5004A252E /* NSString+MD5Addition.m in Sources */,
+				5821329415E4B4E5004A252E /* UIDevice+IdentifierAddition.m in Sources */,
+				582132BF15E4CBEF004A252E /* UIDevice+serialNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B9D15815A46E02009D8104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B9D15915A46E02009D8104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58B9D16115A46E02009D8104 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B9D16215A46E02009D8104 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = KargoTakip;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581433FF15AFFB5F00BA7E27 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		5814340015AFFB5F00BA7E27 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KargoTakip/KargoTakip-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "KargoTakip/KargoTakip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		58B9D16715A46E02009D8104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B9D16815A46E02009D8104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B9D16A15A46E02009D8104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KargoTakip/KargoTakip-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "KargoTakip/KargoTakip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58B9D16B15A46E02009D8104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emre Demiray (WKXAL4H96H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KargoTakip/KargoTakip-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "KargoTakip/KargoTakip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A50E1BAF-372C-4D76-BADE-0145BC858791";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B9D14515A46E02009D8104 /* Build configuration list for PBXProject "KargoTakip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B9D16715A46E02009D8104 /* Debug */,
+				58B9D16815A46E02009D8104 /* Release */,
+				581433FF15AFFB5F00BA7E27 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B9D16915A46E02009D8104 /* Build configuration list for PBXNativeTarget "KargoTakip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B9D16A15A46E02009D8104 /* Debug */,
+				58B9D16B15A46E02009D8104 /* Release */,
+				5814340015AFFB5F00BA7E27 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B9D14215A46E02009D8104 /* Project object */;
+}
